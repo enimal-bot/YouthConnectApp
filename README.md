@@ -1,20 +1,75 @@
-<<<<<<< HEAD
-# YouthConnectApp
-=======
-# youthconnect_app
+# YouthConnect Burkina Faso
 
-A new Flutter project.
+## Application Overview
+
+YouthConnect Burkina Faso is the official mobile platform connecting young Burkinabe citizens with:
+- Career opportunities
+- Educational resources
+- Community programs
+- Government services
+
+## Key Features
+
+### Home Dashboard
+- News carousel with latest updates
+- Quick-access sections:
+  -  Opportunities (Jobs, Internships, Tenders)
+  -  Media programs (Radio, TV)
+  -  Education (Scholarships, Trainings)
+
+### Intuitive Navigation
+- Bottom navigation bar with 5 main sections
+- Category tabs for easy filtering
+- Personalized user account
+
+### Modern UI/UX
+- Clean orange/white color scheme
+- Responsive across all devices
+- Custom iconography
+- Smooth animations
+
+## Technical Stack
+
+**Core Technologies**:
+- Flutter 3.16+
+- Dart 3.0+
+- Material Design 3
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+### Project structure
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+lib/
+├── main.dart              # Application entry point
+├── constants/             # App constants and theming
+├── models/                # Data models
+├── screens/               # All application screens
+│   ├── home_screen.dart   # Main dashboard
+│   ├── news_screen.dart   # News feed
+│   └── ...                # Other screens
+├── services/              # Business logic
+├── widgets/               # Reusable components
+│   ├── custom_app_bar.dart
+│   ├── opportunity_card.dart
+│   └── ...
+└── utils/                 # Utilities and helpers
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
->>>>>>> 497151d (Initial commit)
+### Prerequisites
+- Flutter SDK (3.16+ recommended)
+- Android Studio/Xcode (for emulators)
+- Git version control
+
+### Installation
+```bash
+# 1. Clone the repository
+git clone https://github.com/enimal-bot/YouthConnectApp.git
+
+# 2. Navigate to project directory
+cd YouthConnectApp
+
+# 3. Install dependencies
+flutter pub get
+
+# 4. Run the application
+flutter run
